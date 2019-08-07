@@ -14,6 +14,7 @@ class Pokemon
     @id = db.execute("SELECT last_insert_rowid() FROM pokemon")[0][0]
   end
   
+<<<<<<< HEAD
   def self.find(id,db)
     sql = <<-SQL
       SELECT *
@@ -29,4 +30,6 @@ class Pokemon
   end 
   
   
+=======
+>>>>>>> 4fc9068d66d611424732a3eae71db16023e6cb7b
 end
