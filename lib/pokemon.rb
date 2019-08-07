@@ -28,7 +28,4 @@ class Pokemon
     end.first
   end 
   
-  
-=======
->>>>>>> 4fc9068d66d611424732a3eae71db16023e6cb7b
 end
